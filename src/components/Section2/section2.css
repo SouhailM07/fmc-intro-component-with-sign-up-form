@@ -3,3 +3,11 @@
 @tailwind utilities;
 @layer components {
 }
+
+.error-input input {
+  @apply border-2 border-red-500;
+}
+
+.invalidLogo {
+  grid-area: 1/2/1/3;
+}
